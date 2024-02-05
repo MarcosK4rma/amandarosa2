@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Eczar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&family=Eczar&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #352630;
+    color: #e9dfcc;
+}
+
+.links-cabecalho {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.link-cabecalho {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #f3a36b;
+}
+
+.conteudo {
+    padding: 10% 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.apresentacao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+strong {
+    color: #f3a36b;
+    font-size: 2.3rem;
+}
+
+.paragrafo {
+    font-size: 1.6rem;
+    font-family: 'Cormorant SC', serif;
+}
+
+.titulo {
+    font-family: 'Cormorant SC', serif;
+    font-size: 2.1rem;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.link {
+    background-color: #554865;
+    color: black;
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 17px;
+    font-family: 'Cormorant SC', serif;
+}
+
+.titulo-final {
+    font-size: 26px;
+    font-family: 'Cormorant SC', serif;
+}
+
+.imagem {
+    width: 50%;
+    height: 200px 200px;
+}
+
+@media (max-width: 1200px) {
+    .titulo {
+        font-size: 1rem;
+    }
+
+    .paragrafo {
+        font-size: 1rem;
+    }
+
+    .conteudo {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao {
+        width: auto;
+    }
+ }  /* serve para determinar um tamanho e se passar ou for menor o tal tamanho a tela fica diferente */
